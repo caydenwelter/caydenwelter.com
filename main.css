@@ -1,0 +1,25 @@
+#navbar-icon{
+    font-family: 'Caveat', cursive;
+}
+
+#nameIntro{
+    font-family: 'Caveat', cursive;
+}
+
+@media screen and (min-width: 576px) {
+    #nameIntro{
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    #nameIntro{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    #nameIntro{
+        font-size: 30px;
+    }
+}
