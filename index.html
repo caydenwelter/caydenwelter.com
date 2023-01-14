@@ -16,26 +16,34 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
 
-        <title>Let's Connect - Cayden Welter</title>
+        <title>Cayden Welter</title>
     </head>
     
     <body onload="intro()">
+        
         <!--Main navbar-->
         <nav class="navbar navbar-expand-sm bg-light navbar-light">
-            <a class="navbar-brand" id="navbar-icon" href="#">Cayden Welter</a>
+            <a class="navbar-brand" id="navbar-icon" href="index.html">Cayden Welter</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav" id="main-navbar">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home</a>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="resume.html">Resume</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="connect.html">Let's Connect</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">Projects</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="project1.html">Project #1</a></li>
+                            <li><a class="dropdown-item" href="project2.html">Project #2</a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -46,13 +54,16 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <p class="text-center" id="nameIntro"></p>
+                    <p class="text-center" id="nameIntro"><br></p>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
                     <p class="text-center">This website is currently a work in progress. Please check back later!</p>
                 </div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
             </div>
         </div>
     </body>
