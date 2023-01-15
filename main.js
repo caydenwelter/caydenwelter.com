@@ -21,5 +21,7 @@ function printIntro(){
     }else{
         speed = 100;
     }
-    setTimeout(printIntro, speed);
+    if(i < content.length){
+        setTimeout(printIntro, speed);
+    }
 }

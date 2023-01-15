@@ -1,0 +1,105 @@
+/*
+Palette: https://www.canva.com/colors/color-palettes/strong-and-curved/
+
+*/
+
+:root{
+    /* defining theme variables */
+    --color1: #006884;
+    --color2: #053D57;
+    --color3: #B7CE63;
+    --color4: #97BCC7;
+    --color5: #F2F1EF;
+
+    --color1-emphasis: #003e4f;
+
+    --color3-emphasis: #a8bd5b;
+
+    --color5-emphasis: #d9d8d7;
+}
+
+#nameIntro{
+    font-family: 'Caveat', cursive;
+}
+
+/* Start for correct sizing of the introduction text */
+@media screen and (min-width: 576px) {
+    #nameIntro{
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    #nameIntro{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    #nameIntro{
+        font-size: 30px;
+    }
+}
+/* End for correct sizing of the introduction text */
+
+/* Start custom navbar */
+
+#navbar-icon{ /* Signature in top left */
+    font-family: 'Caveat', cursive;
+}
+
+.navbar-custom{ /* color of the entire navbar */
+    background-color: var(--color3);
+}
+
+.navbar-custom .navbar-brand, .navbar-custom .nav-link{ /* color of navbar links */
+    color: var(--color1);
+    background-color: var(--color3);
+}
+
+.navbar-custom .nav-link:hover{ /* when hovering on nav links */
+    color: var(--color1-emphasis);
+}
+
+.navbar-custom .navbar-nav .dropdown-menu{ /* style of links in project dropdown */
+    background-color: var(--color5);
+}
+
+.navbar-custom .navbar-nav .dropdown-item { /* style of links in project dropdown */
+    color: var(--color1);
+}
+
+.navbar-custom .navbar-nav .dropdown-item:hover { /* when hovering on links in project dropdown */
+    color: var(--color1-emphasis);
+    background-color: var(--color5-emphasis);
+}
+
+.navbar-custom .navbar-nav .nav-link.active { /* active nav link */
+    color: var(--color1-emphasis);
+}
+
+.navbar-custom .navbar-nav .dropdown-item.active { /* active project dropdown */
+    color: var(--color1-emphasis);
+    background-color: var(--color5-emphasis);
+}
+
+.navbar-custom .navbar-nav .nav-link .dropdown-toggle.active { /* styles the projects dropdown button when on any project page */
+    color: var(--color1-emphasis);
+}
+
+.navbar-custom .navbar-toggler-icon{ /* custom toggle button when on mobile viewport */
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,104,132,0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-custom .navbar-toggler { /* custom toggle button outline when on mobile viewport */
+    border-color: var(--color1);
+}
+/* End custom navbar */
+
+/*Used for development only. Helps to vizualize bootstrap grids*/
+.box{
+    background-color: lightblue;
+    border: 1px solid blue;
+    min-height: 50px;
+    font-size: 2rem;
+}
