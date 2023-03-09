@@ -31,6 +31,24 @@ Palette: https://www.canva.com/colors/color-palettes/strong-and-curved/
     font-family: 'Caveat', cursive;
 }
 
+#remainder{
+    animation:10s ease 0s normal forwards 1 fadein;
+    -webkit-animation:10s ease 0s normal forwards 1 fadein;
+    opacity:1
+    }
+    
+    @keyframes fadein{
+        0%{opacity:0}
+        80%{opacity:0}
+        100%{opacity:1}
+    }
+    
+    @-webkit-keyframes fadein{
+        0%{opacity:0}
+        80%{opacity:0}
+        100%{opacity:1}
+    }
+
 /* Start for correct sizing of the introduction text */
 @media screen and (min-width: 576px) {
     #nameIntro{
