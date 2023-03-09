@@ -10,15 +10,24 @@ Palette: https://www.canva.com/colors/color-palettes/strong-and-curved/
     --color3: #B7CE63;
     --color4: #97BCC7;
     --color5: #F2F1EF;
+    --color6: #A5894F;
 
-    --color1-emphasis: #003e4f;
+    --color1-emphasis: #014a5e; /* #003e4f */
 
     --color3-emphasis: #a8bd5b;
 
     --color5-emphasis: #d9d8d7;
+    --color5-emphasis-2: #a8a7a7;
+
+    --blue-emphasis: #d1d3e0;
+
 }
 
 #nameIntro{
+    font-family: 'Caveat', cursive;
+}
+
+#subIntro{
     font-family: 'Caveat', cursive;
 }
 
@@ -27,11 +36,17 @@ Palette: https://www.canva.com/colors/color-palettes/strong-and-curved/
     #nameIntro{
         font-size: 40px;
     }
+    #subIntro{
+        font-size: 30px;
+    }
 }
 
 @media screen and (min-width: 1200px){
     #nameIntro{
         font-size: 50px;
+    }
+    #subIntro{
+        font-size: 37.5px;
     }
 }
 
@@ -39,10 +54,17 @@ Palette: https://www.canva.com/colors/color-palettes/strong-and-curved/
     #nameIntro{
         font-size: 30px;
     }
+    #subIntro{
+        font-size: 22.5px;
+    }
 }
 /* End for correct sizing of the introduction text */
 
 /* Start custom navbar */
+
+#navbar-icon{
+    padding: none; 
+}
 
 #navbar-icon{ /* Signature in top left */
     font-family: 'Caveat', cursive;
@@ -70,16 +92,16 @@ Palette: https://www.canva.com/colors/color-palettes/strong-and-curved/
 }
 
 .navbar-custom .navbar-nav .dropdown-item:hover { /* when hovering on links in project dropdown */
-    color: var(--color1-emphasis);
-    background-color: var(--color5-emphasis);
+    color: black;
+    background-color: var(--blue-emphasis);
 }
 
 .navbar-custom .navbar-nav .nav-link.active { /* active nav link */
-    color: var(--color1-emphasis);
+    color: black;
 }
 
 .navbar-custom .navbar-nav .dropdown-item.active { /* active project dropdown */
-    color: var(--color1-emphasis);
+    color: black;
     background-color: var(--color5-emphasis);
 }
 
