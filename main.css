@@ -21,6 +21,10 @@ Palette: https://www.canva.com/colors/color-palettes/strong-and-curved/
 
     --blue-emphasis: #d1d3e0;
 
+    /* font sizes */
+    --size-Intro: 40px;
+    --size-subIntro: 30px;
+
 }
 
 #nameIntro{
@@ -50,9 +54,9 @@ Palette: https://www.canva.com/colors/color-palettes/strong-and-curved/
     }
 
 /* Start for correct sizing of the introduction text */
-@media screen and (min-width: 576px) {
+/* @media screen and (min-width: 576px) {
     #nameIntro{
-        font-size: 40px;
+        font-size: var(--size-Intro);
     }
     #subIntro{
         font-size: 30px;
@@ -61,7 +65,7 @@ Palette: https://www.canva.com/colors/color-palettes/strong-and-curved/
 
 @media screen and (min-width: 1200px){
     #nameIntro{
-        font-size: 50px;
+        font-size: var(--size-Intro);
     }
     #subIntro{
         font-size: 37.5px;
@@ -70,12 +74,12 @@ Palette: https://www.canva.com/colors/color-palettes/strong-and-curved/
 
 @media screen and (max-width: 575px){
     #nameIntro{
-        font-size: 30px;
+        font-size: var(--size-Intro);
     }
     #subIntro{
         font-size: 22.5px;
     }
-}
+} */
 /* End for correct sizing of the introduction text */
 
 /* Start custom navbar */
