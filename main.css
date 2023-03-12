@@ -35,7 +35,7 @@ Palette: https://www.canva.com/colors/color-palettes/strong-and-curved/
     font-family: 'Caveat', cursive;
 }
 
-#remainder{
+#hello{
     animation:10s ease 0s normal forwards 1 fadein;
     -webkit-animation:10s ease 0s normal forwards 1 fadein;
     opacity:1
@@ -53,36 +53,23 @@ Palette: https://www.canva.com/colors/color-palettes/strong-and-curved/
         100%{opacity:1}
     }
 
-/* Start for correct sizing of the introduction text */
-/* @media screen and (min-width: 576px) {
-    #nameIntro{
-        font-size: var(--size-Intro);
+#remainder{
+    animation:11.5s ease 0s normal forwards 1 fadein;
+    -webkit-animation:11.5s ease 0s normal forwards 1 fadein;
+    opacity:1
     }
-    #subIntro{
-        font-size: 30px;
+    
+    @keyframes fadein{
+        0%{opacity:0}
+        80%{opacity:0}
+        100%{opacity:1}
     }
-}
-
-@media screen and (min-width: 1200px){
-    #nameIntro{
-        font-size: var(--size-Intro);
+    
+    @-webkit-keyframes fadein{
+        0%{opacity:0}
+        80%{opacity:0}
+        100%{opacity:1}
     }
-    #subIntro{
-        font-size: 37.5px;
-    }
-}
-
-@media screen and (max-width: 575px){
-    #nameIntro{
-        font-size: var(--size-Intro);
-    }
-    #subIntro{
-        font-size: 22.5px;
-    }
-} */
-/* End for correct sizing of the introduction text */
-
-/* Start custom navbar */
 
 #navbar-icon{
     padding: none; 

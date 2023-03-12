@@ -46,11 +46,6 @@ function printSubIntro(){
     }
 }
 
-function showRemainderOfHomepage(){
-    remainder = document.getElementById("remainder");
-    remainder.style.display = "block";
-}
-
 function intro(){
     introduction = document.getElementById("nameIntro");
     setTimeout(printIntro, 300); //add a bit of delay before starting the typing animation
