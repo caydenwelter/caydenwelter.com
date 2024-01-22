@@ -1,76 +1,187 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <!--Bootstrap t-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link rel="stylesheet" href="main.css">
-
-        <script src="main.js"></script>
-        
-        <!--Custom font-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
-
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <title>Cayden Welter</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
     </head>
-    
-    <body onload="intro()">
-        
-        <!--Main navbar-->
-        <nav class="navbar navbar-expand-sm navbar-custom">
-            <a class="navbar-brand" id="navbar-icon" href="https://www.caydenwelter.com">Cayden Welter</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbar">
-                <ul class="navbar-nav" id="main-navbar">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="https://www.caydenwelter.com">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.caydenwelter.com/resume">Resume</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.caydenwelter.com/connect">Let's Connect</a>
-                    </li>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Cayden Welter</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/headshot.jpg" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
                 </ul>
             </div>
         </nav>
-
-        <br>
-        
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h1 class="text-center" id="nameIntro"><br></h1>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Cayden
+                        <span class="text-primary">Welter</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        Madison, WI ·
+                        <a href="mailto:caydenwelter@gmail.com">caydenwelter@gmail.com</a>
+                    </div>
+                    <p class="lead mb-5">Hi! I'm currently a 4th-year Data Science student at the Univeristy of Wisconsin-Madison. I'm seeking a full-time position starting in Summer 2024.</p>
+                    <p class="lead mb-5">Please click <a href="Cayden Welter.pdf" target="_blank">here</a> if you'd like a downloadable version of my resume.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/cayden-welter-b829b422b/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/caydenwelter"><i class="fab fa-github"></i></a>
+                    </div>
                 </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col">
-                    <h3 class="text-center" id="subIntro"><br></h3>
-                    <br>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Data Warehouse Intern</h3>
+                            <div class="subheading mb-3">University of Wisconsin Foundation</div>
+                            <ul>
+                                <li>Collaborate within a team to enhance ETL processes within the data warehouse, focusing on altering logic to align with evolving business requirements.</li>
+                                <li>Play a key role in incorporating data from SalesForce CRM into the warehouse, leveraging SSIS and TaskFactory for seamless integration.</li>
+                                <li>Actively participate in the design and implementation of data warehouse modifications, contributing to discussions and applying industry best practices.</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">December 2023 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Business Intelligence Intern</h3>
+                            <div class="subheading mb-3">University of Wisconsin Foundation</div>
+                            <ul>
+                                <li>Utilized Microsoft T-SQL to facilitate communication list requests and generate ad-hoc information for internal and campus personnel, extracting data from a robust data warehouse.</li>
+                                <li>Supported the advancement of the University of Wisconsin-Madison by delivering data insights to stakeholders.</li>
+                                <li>Gained proficiency in SQL, relational databases, and data warehousing while prioritizing data safety and responsibility.</li>
+                                <li>Demonstrated efficiency by servicing over 100 ad-hoc requests within a three-month timeframe.</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">May 2023 - December 2023</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Information Technology Intern</h3>
+                            <div class="subheading mb-3">University of Wisconsin Foundation</div>
+                            <ul>
+                                <li>Collaborated with a team to provide comprehensive day-to-day support to approximately 400 internal employees, addressing hardware, software, account, and other troubleshooting needs, fostering a productive work environment.</li>
+                                <li>Spearheaded multiple projects, including the development of a PowerShell-based system for auditing the organization's 3000+ IT assets, enhancing accuracy and efficiency.</li>
+                                <li>Designed a user-friendly PowerShell script with a graphical user interface (GUI) to automate the provisioning of accounts for new employees, streamlining onboarding processes.</li>
+                                <li>Contributed to office relocations, successfully installing new hardware at offsite locations while ensuring minimal disruptions.</li>
+                                <li>Demonstrated proficiency in Microsoft Active Directory, Microsoft PowerShell, and MDM software (Workspace ONE).</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">March 2022 - May 2023</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Customer Service Sales Associate</h3>
+                            <div class="subheading mb-3">Kwik Trip, Inc.</div>
+                            <ul>
+                                <li>Excelled in a fast-paced and dynamic retail environment, providing exceptional guest service while maintaining a clean and organized store.</li>
+                                <li>Acquired proficiency in food service operations, contributing to the kitchen's efficiency and quality standards.</li>
+                                <li>Demonstrated a strong collaborative spirit by working effectively with team members to meet store objectives.</li>
+                                <li>Thrived in a high-pressure, fast-paced working environment, developing adaptability and composure under pressure.</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2020 - March 2022</span></div>
+                    </div>
+                    <br><br>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Shift Lead</h3>
+                            <div class="subheading mb-3">Ace Hardware</div>
+                            <ul>
+                                <li>Demonstrated strong leadership by efficiently opening and closing the store during manager absences, ensuring a smooth transition of operations.</li>
+                                <li>Managed cash registers and the safe, maintaining accurate records and secure cash handling procedures.</li>
+                                <li>Proficiently handled and de-escalated customer complaints, fostering positive customer relations.</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">October 2019 - September 2020</span></div>
+                    </div>
                 </div>
-            </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">University of Wisconsin-Madison</h3>
+                            <div class="subheading mb-3">Bachelor of Science, Data Science</div>
+                            <div>GPA: 3.7</div>
+                            <div>Activities: UW Data Science Club (dotData)</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2022 - 2024 (Expected)</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Madison Area Technical College</h3>
+                            <div class="subheading mb-3">Transfer Program</div>
+                            <p>GPA: 4.0</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2020 - 2022</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>R</li>
+                        <li>SQL</li>
+                        <li>Git</li>
+                        <li>Microsoft SQL Server</li>
+                        <li>Linux/Bash</li>
+                        <li>Jira, Confluence, and agile methods, such as scrum</li>
+                        <li>Microsoft PowerShell</li>
+                        <li>HTML5 & CSS3</li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>Hey there! Outside the realms of work and academics, I find joy in a few key pursuits. Motorcycling is not just a mode of transportation but a source of exhilaration, offering a refreshing sense of freedom. Quality time with friends is invaluable, filled with shared laughter and unforgettable moments.</p>
+                    <p>Staying active is a priority, and I indulge my love for exercise in various forms. Web development is both a hobby and a professional interest, with a focus on personal projects that involve web scraping and diving into the world of data analytics. Extracting insights from the vast web landscape is a challenge I gladly embrace.</p>
+                    <p class="mb-0">Thanks for visiting! As I approach graduation, I'm actively seeking full-time job opportunities. If you're interested in connecting or discussing potential roles, feel free to reach out on <a href="https://www.linkedin.com/in/cayden-welter-b829b422b/">LinkedIn</a>. Alternatively, you can drop me an email at <a href="mailto:caydenwelter@gmail.com">caydenwelter@gmail.com</a>. I appreciate your time and look forward to potential connections in the professional sphere.</p>
+                </div>
+            </section>
         </div>
-        <div class="container fade-in" id="hello">
-            <div class="row">
-                <div class="col">
-                    <h5 class="text-center">It's nice to meet you! 👋<br></h5>
-                </div>
-            </div>
-        </div>
-        <div class="container fade-in" id="remainder">
-            <div class="row">
-                <div class="col">
-                    <h5 class="text-center">Feel free to take a look at my <a href="https://www.caydenwelter.com/resume">Resume</a>, or <a href="https://www.caydenwelter.com/connect">Connect</a> with me.</h5>
-                </div>
-            </div>
-        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
     </body>
 </html>
